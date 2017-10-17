@@ -18,18 +18,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ui3-3v-DZ2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ui3-3v-DZ2">
                                 <rect key="frame" x="67" y="30" width="240" height="297"/>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Place" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w7n-vu-fnf">
+                                <rect key="frame" x="67" y="401" width="240" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jH2-a4-J7x">
+                                <rect key="frame" x="164" y="502" width="50" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Tsq-6F-bCU"/>
+                                </constraints>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="btnsend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jz3-nT-Vzc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ui3-3v-DZ2" secondAttribute="trailing" constant="68" id="2nQ-Vx-vZx"/>
                             <constraint firstItem="ui3-3v-DZ2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="44M-IO-AwX"/>
                             <constraint firstItem="ui3-3v-DZ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="51r-S8-Rqp"/>
+                            <constraint firstItem="w7n-vu-fnf" firstAttribute="top" secondItem="ui3-3v-DZ2" secondAttribute="bottom" constant="74" id="8KP-e6-rB4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ui3-3v-DZ2" secondAttribute="bottom" constant="340" id="Cv9-6d-SbE"/>
+                            <constraint firstItem="jH2-a4-J7x" firstAttribute="top" secondItem="w7n-vu-fnf" secondAttribute="bottom" constant="71" id="bY2-nn-lyu"/>
+                            <constraint firstItem="jH2-a4-J7x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="bZo-ou-KaX"/>
+                            <constraint firstItem="jH2-a4-J7x" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ixB-V8-jaU"/>
+                            <constraint firstItem="w7n-vu-fnf" firstAttribute="trailing" secondItem="ui3-3v-DZ2" secondAttribute="trailing" id="keH-fX-wrM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jH2-a4-J7x" secondAttribute="bottom" constant="125" id="qUY-a2-MAd"/>
+                            <constraint firstItem="w7n-vu-fnf" firstAttribute="leading" secondItem="ui3-3v-DZ2" secondAttribute="leading" id="ujl-cw-BgV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="ui3-3v-DZ2" id="APf-Lp-5Hv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100E93A1F94463D00FBA198 /* train-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1100E9391F94463C00FBA198 /* train-large.png */; };
+		1100E93C1F94465100FBA198 /* train2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1100E93B1F94465100FBA198 /* train2.jpg */; };
 		1175FA7A1F9115D100910F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FA791F9115D100910F98 /* AppDelegate.swift */; };
 		1175FA7C1F9115D100910F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175FA7B1F9115D100910F98 /* ViewController.swift */; };
 		1175FA7F1F9115D100910F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1175FA7D1F9115D100910F98 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1100E9391F94463C00FBA198 /* train-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "train-large.png"; sourceTree = SOURCE_ROOT; };
+		1100E93B1F94465100FBA198 /* train2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = train2.jpg; sourceTree = SOURCE_ROOT; };
 		1175FA761F9115D100910F98 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1175FA791F9115D100910F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1175FA7B1F9115D100910F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		1175FA781F9115D100910F98 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				1100E93B1F94465100FBA198 /* train2.jpg */,
+				1100E9391F94463C00FBA198 /* train-large.png */,
 				1175FA791F9115D100910F98 /* AppDelegate.swift */,
 				1175FA7B1F9115D100910F98 /* ViewController.swift */,
 				1175FA7D1F9115D100910F98 /* Main.storyboard */,
@@ -235,7 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1100E93A1F94463D00FBA198 /* train-large.png in Resources */,
 				1175FA841F9115D100910F98 /* LaunchScreen.storyboard in Resources */,
+				1100E93C1F94465100FBA198 /* train2.jpg in Resources */,
 				1175FA811F9115D100910F98 /* Assets.xcassets in Resources */,
 				1175FA7F1F9115D100910F98 /* Main.storyboard in Resources */,
 			);
